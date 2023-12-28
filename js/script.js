@@ -110,4 +110,5 @@ function show_video(){
 }
 function close_video(){
     document.querySelector('.vid_section').style.display = 'none';
+    window.location.reload();
 }
